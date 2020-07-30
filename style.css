@@ -1,0 +1,157 @@
+/*comment*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(128, 123, 123);
+    background-image: url(https://wallpapersmug.com/u/b163a1/sunset-sea-surface.jpg);
+    background-position: 10% 85%;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+/*"nav" top menu bar*/
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*header styling*/
+
+
+/*to make the menu bar appear after using header*/
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*logo stlying*/
+
+
+/*welcome, ashiya saiyed + info section styling*/
+
+section {
+    margin: 6 6em;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0 1.2em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 4em;
+}
+
+h2 a:hover {
+    color: rgb(255, 99, 71);
+}
+
+h2 a::after {
+    opacity: 2em;
+    transition: opacity 0.3s ease-out;
+    font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 33px;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 0em;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: block;
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: lowercase;
+    padding: 2em;
+}
+
+.project-containerone p {
+    color: white;
+    margin-bottom: 1.0em;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+input[type=button] {
+    font-family: 'Inconsolata', monospace;
+    width: 180px;
+    height: 75px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 0.5em 0.5em;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 rgb(255, 99, 71);
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    transition: ease-out 0.2s;
+    outline: none;
+}
+
+input[type=button]:hover {
+    box-shadow: inset 140px 0 0 0 rgb(255, 99, 71);
+}
+
+
+/* rgb(247, 168, 126);*/
+
+footer {
+    padding-top: 4em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    overflow: hidden;
+    padding: 58px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+footer a:hover {
+    color: rgb(255, 99, 71);
+}
